@@ -1,0 +1,1090 @@
+ 2022-06-13 19:37:38.424 +03:00 [INF] Application is starting
+ 2022-06-13 19:37:42.286 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:37:43.716 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:37:43.716 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:37:43.716 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:37:43.716 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:37:43.716 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:37:45.020 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:37:45.448 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:37:45.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 4.3074ms
+ 2022-06-13 19:37:45.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 437.3513ms
+ 2022-06-13 19:37:45.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:37:45.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+ 2022-06-13 19:37:45.765 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+ 2022-06-13 19:37:45.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 10.6323ms
+ 2022-06-13 19:37:45.800 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.4796ms
+ 2022-06-13 19:37:49.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-13 19:37:49.492 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 19:37:49.513 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:37:50.668 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 19:37:50.722 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 19:37:50.724 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-13 19:37:51.722 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-13 19:37:51.782 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 2263.087ms
+ 2022-06-13 19:37:51.783 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 19:37:51.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 2605.4366ms
+ 2022-06-13 19:41:13.289 +03:00 [INF] Application is starting
+ 2022-06-13 19:41:14.544 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:41:15.089 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:41:15.090 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:41:15.090 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:41:15.090 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:41:15.090 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:41:15.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:41:16.077 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 233.6841ms
+ 2022-06-13 19:41:16.101 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:41:16.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 3.3166ms
+ 2022-06-13 19:41:16.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:41:16.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.8859ms
+ 2022-06-13 19:41:23.133 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Category application/json 42
+ 2022-06-13 19:41:23.140 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 19:41:23.279 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-13 19:41:23.317 +03:00 [INF] Route matched with {action = "Post", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MyStore.DTOs.CategoryModel) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:41:23.612 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+ 2022-06-13 19:41:23.623 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Post (MyStore) in 301.9318ms
+ 2022-06-13 19:41:23.624 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-13 19:41:23.630 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Category application/json 42 - 400 - application/problem+json;+charset=utf-8 497.8506ms
+ 2022-06-13 19:52:15.981 +03:00 [INF] Application is starting
+ 2022-06-13 19:52:17.449 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:52:17.976 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:52:17.976 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:52:17.976 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:52:17.976 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:52:17.976 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:52:18.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:52:18.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 204.6970ms
+ 2022-06-13 19:52:18.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:52:18.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 8.4437ms
+ 2022-06-13 19:52:19.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:52:19.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 81.3893ms
+ 2022-06-13 19:52:24.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-13 19:52:24.388 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+ 2022-06-13 19:52:24.391 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+ 2022-06-13 19:52:24.391 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 401 0 - 124.7302ms
+ 2022-06-13 19:52:41.819 +03:00 [INF] Application is starting
+ 2022-06-13 19:52:43.013 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:52:43.616 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:52:43.616 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:52:43.617 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:52:43.617 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:52:43.617 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:52:44.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:52:44.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 239.8708ms
+ 2022-06-13 19:52:44.635 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:52:44.650 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 15.1512ms
+ 2022-06-13 19:52:44.779 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:52:44.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.4194ms
+ 2022-06-13 19:52:47.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-13 19:52:47.815 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 19:52:47.829 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:52:48.456 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 19:52:48.509 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 19:52:48.511 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-13 19:52:49.037 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-13 19:52:49.091 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1259.1207ms
+ 2022-06-13 19:52:49.091 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 19:52:49.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1398.5520ms
+ 2022-06-13 19:52:58.528 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/22 - -
+ 2022-06-13 19:52:58.534 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 19:52:58.537 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 19:52:58.543 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:52:58.631 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 19:52:58.726 +03:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 19:52:58.945 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:83bc6e02-3c17-4d1e-8975-574a4e095590
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:83bc6e02-3c17-4d1e-8975-574a4e095590
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ 2022-06-13 19:53:32.351 +03:00 [INF] Application is starting
+ 2022-06-13 19:53:33.654 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:53:34.161 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:53:34.161 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:53:34.161 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:53:34.162 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:53:34.162 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:53:34.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:53:35.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 232.0156ms
+ 2022-06-13 19:53:35.048 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:53:35.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.6085ms
+ 2022-06-13 19:53:35.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:53:35.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.0725ms
+ 2022-06-13 19:53:40.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Customer - -
+ 2022-06-13 19:53:40.960 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CustomerController.GetCustomers (MyStore)'
+ 2022-06-13 19:53:40.983 +03:00 [INF] Route matched with {action = "GetCustomers", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CustomerModel] GetCustomers() on controller MyStore.Controllers.CustomerController (MyStore).
+ 2022-06-13 19:53:41.701 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 19:53:41.752 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 19:53:41.757 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Customer, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CustomerModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-13 19:53:42.340 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[Address], [c].[Email], [c].[Name], [c].[OrderId]
+FROM [Customers] AS [c]
+ 2022-06-13 19:53:42.432 +03:00 [INF] Executed action MyStore.Controllers.CustomerController.GetCustomers (MyStore) in 1444.231ms
+ 2022-06-13 19:53:42.433 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CustomerController.GetCustomers (MyStore)'
+ 2022-06-13 19:53:42.438 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Customer - - - 200 - application/json;+charset=utf-8 1599.9234ms
+ 2022-06-13 19:53:46.433 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Customer/3 - -
+ 2022-06-13 19:53:46.441 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 19:53:46.442 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CustomerController.Delete (MyStore)'
+ 2022-06-13 19:53:46.449 +03:00 [INF] Route matched with {action = "Delete", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CustomerController (MyStore).
+ 2022-06-13 19:53:46.549 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[Email], [c].[Name], [c].[OrderId]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 19:53:46.636 +03:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Customers]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 19:53:46.703 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a0ff243a-e598-4799-b5fa-0ab21d96371c
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:a0ff243a-e598-4799-b5fa-0ab21d96371c
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ 2022-06-13 19:55:08.394 +03:00 [INF] Application is starting
+ 2022-06-13 19:55:09.556 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:55:10.113 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:55:10.113 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:55:10.113 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:55:10.113 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:55:10.113 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:55:10.867 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:55:11.068 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 201.7904ms
+ 2022-06-13 19:55:11.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:55:11.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.2411ms
+ 2022-06-13 19:55:11.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:55:11.275 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.0675ms
+ 2022-06-13 19:55:19.760 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Customer/3 - -
+ 2022-06-13 19:55:19.766 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 19:55:19.914 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CustomerController.Delete (MyStore)'
+ 2022-06-13 19:55:19.932 +03:00 [INF] Route matched with {action = "Delete", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CustomerController (MyStore).
+ 2022-06-13 19:55:20.589 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 19:55:20.641 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 19:55:21.184 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[Email], [c].[Name], [c].[OrderId]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 19:55:21.283 +03:00 [ERR] Failed executing DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Customers]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 19:55:21.340 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:eb8da507-cbc5-4902-8e3e-06e5e4091726
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:eb8da507-cbc5-4902-8e3e-06e5e4091726
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ 2022-06-13 19:56:08.979 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/21 - -
+ 2022-06-13 19:56:09.001 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 19:56:09.005 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 19:56:09.007 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:56:09.008 +03:00 [INF] Executed action MyStore.Controllers.CustomerController.Delete (MyStore) in 49071.7344ms
+ 2022-06-13 19:56:09.009 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CustomerController.Delete (MyStore)'
+ 2022-06-13 19:56:09.011 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:eb8da507-cbc5-4902-8e3e-06e5e4091726
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MyStore.Repository.UnitOfWork.Save() in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\UnitOfWork\UnitOfWork.cs:line 41
+   at MyStore.Services.Services.CustomersService.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\CustomersService.cs:line 60
+   at MyStore.Controllers.CustomerController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CustomerController.cs:line 143
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 19:56:09.042 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 19:56:09.051 +03:00 [ERR] Something went wrong in the Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:eb8da507-cbc5-4902-8e3e-06e5e4091726
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MyStore.Repository.UnitOfWork.Save() in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\UnitOfWork\UnitOfWork.cs:line 41
+   at MyStore.Services.Services.CustomersService.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\CustomersService.cs:line 60
+   at MyStore.Controllers.CustomerController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CustomerController.cs:line 143
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 19:56:09.062 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 19:56:14.907 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Delete (MyStore) in 5899.7092ms
+ 2022-06-13 19:56:14.907 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 19:56:14.908 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at MyStore.Repository.GenericRepository`1.Delete(Object Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\Repository\GenericRepository.cs:line 30
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 itemId) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 53
+   at MyStore.Controllers.CategoryController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CategoryController.cs:line 129
+   at lambda_method100(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 19:56:14.909 +03:00 [ERR] Something went wrong in the System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at MyStore.Repository.GenericRepository`1.Delete(Object Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\Repository\GenericRepository.cs:line 30
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 itemId) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 53
+   at MyStore.Controllers.CategoryController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CategoryController.cs:line 129
+   at lambda_method100(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 19:56:15.194 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Customer/3 - - - 500 - application/json 55433.7322ms
+ 2022-06-13 19:56:15.194 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Category/21 - - - 500 - application/json 6215.7208ms
+ 2022-06-13 19:56:20.226 +03:00 [INF] Application is shutting down...
+ 2022-06-13 19:56:24.246 +03:00 [INF] Application is starting
+ 2022-06-13 19:56:25.416 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:56:25.977 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:56:25.977 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:56:25.977 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:56:25.977 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:56:25.977 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:56:26.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:56:27.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 243.1486ms
+ 2022-06-13 19:56:27.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:56:27.036 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 4.8135ms
+ 2022-06-13 19:56:27.157 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:56:27.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.3366ms
+ 2022-06-13 19:56:30.965 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-13 19:56:31.089 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 19:56:31.102 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:56:31.724 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 19:56:31.779 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 19:56:31.781 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-13 19:56:32.257 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-13 19:56:32.302 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1194.7504ms
+ 2022-06-13 19:56:32.303 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 19:56:32.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1344.5046ms
+ 2022-06-13 19:56:39.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category/21 - -
+ 2022-06-13 19:56:39.802 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetById (MyStore)'
+ 2022-06-13 19:56:39.811 +03:00 [INF] Route matched with {action = "GetById", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:56:39.892 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 19:56:39.901 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+ 2022-06-13 19:56:39.904 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetById (MyStore) in 92.9138ms
+ 2022-06-13 19:56:39.904 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetById (MyStore)'
+ 2022-06-13 19:56:39.905 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category/21 - - - 404 - application/problem+json;+charset=utf-8 105.0045ms
+ 2022-06-13 19:56:50.854 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Category application/json 33
+ 2022-06-13 19:56:50.860 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 19:56:50.862 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-13 19:56:50.863 +03:00 [INF] Route matched with {action = "Post", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MyStore.DTOs.CategoryModel) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 19:56:50.935 +03:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([Id], [CategoryName])
+VALUES (@p0, @p1);
+ 2022-06-13 19:56:50.980 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Categories' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:13cd8221-e1ee-4434-9739-dd919a7a2011
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert explicit value for identity column in table 'Categories' when IDENTITY_INSERT is set to OFF.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:13cd8221-e1ee-4434-9739-dd919a7a2011
+Error Number:544,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ 2022-06-13 19:57:05.682 +03:00 [INF] Application is starting
+ 2022-06-13 19:57:06.882 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 19:57:07.512 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 19:57:07.513 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 19:57:07.513 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 19:57:07.513 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 19:57:07.513 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 19:57:08.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 19:57:08.430 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 216.9639ms
+ 2022-06-13 19:57:08.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 19:57:08.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.6159ms
+ 2022-06-13 19:57:08.581 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 19:57:08.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.9172ms
+ 2022-06-13 20:00:47.272 +03:00 [INF] Application is starting
+ 2022-06-13 20:00:48.523 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 20:00:49.121 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 20:00:49.121 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 20:00:49.122 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 20:00:49.122 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 20:00:49.122 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 20:00:49.951 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 20:00:50.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 225.5705ms
+ 2022-06-13 20:00:50.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 20:00:50.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 3.4428ms
+ 2022-06-13 20:00:50.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 20:00:50.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 82.5041ms
+ 2022-06-13 20:00:55.487 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/22 - -
+ 2022-06-13 20:00:55.493 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 20:00:55.633 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 20:00:55.664 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 20:00:56.480 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 20:00:56.530 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 20:00:57.150 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 20:00:57.262 +03:00 [ERR] Failed executing DbCommand (11ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 20:00:57.329 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:94465806-a622-490c-bea1-7af4c69ab440
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:94465806-a622-490c-bea1-7af4c69ab440
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ 2022-06-13 20:12:43.742 +03:00 [INF] Application is starting
+ 2022-06-13 20:12:45.156 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 20:12:45.734 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 20:12:45.734 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 20:12:45.734 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 20:12:45.734 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 20:12:45.734 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 20:12:46.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 20:12:46.561 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 221.9458ms
+ 2022-06-13 20:12:46.582 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 20:12:46.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 3.8651ms
+ 2022-06-13 20:12:46.741 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 20:12:46.820 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 79.1074ms
+ 2022-06-13 20:12:51.344 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/22 - -
+ 2022-06-13 20:12:51.349 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 20:12:51.457 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 20:12:51.480 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 20:12:52.135 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 20:12:52.192 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 20:12:52.768 +03:00 [INF] Executed DbCommand (35ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 20:12:52.865 +03:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 20:12:52.919 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:6cd4fccb-2ec6-4d93-9416-0972ce430cc1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:6cd4fccb-2ec6-4d93-9416-0972ce430cc1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ 2022-06-13 20:13:28.198 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Delete (MyStore) in 36713.1183ms
+ 2022-06-13 20:13:28.199 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 20:13:28.202 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:6cd4fccb-2ec6-4d93-9416-0972ce430cc1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MyStore.Repository.UnitOfWork.Save() in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\UnitOfWork\UnitOfWork.cs:line 41
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 54
+   at MyStore.Controllers.CategoryController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CategoryController.cs:line 129
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 20:13:28.233 +03:00 [ERR] Something went wrong in the Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CategoryId_Product". The conflict occurred in database "MyStore", table "dbo.Products", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:6cd4fccb-2ec6-4d93-9416-0972ce430cc1
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges()
+   at MyStore.Repository.UnitOfWork.Save() in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\UnitOfWork\UnitOfWork.cs:line 41
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 54
+   at MyStore.Controllers.CategoryController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CategoryController.cs:line 129
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 20:13:28.401 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Category/22 - - - 500 - application/json 37057.6913ms
+ 2022-06-13 20:13:58.281 +03:00 [INF] Application is starting
+ 2022-06-13 20:13:59.548 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 20:14:00.162 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 20:14:00.162 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 20:14:00.162 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 20:14:00.162 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 20:14:00.162 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 20:14:00.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 20:14:01.176 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 217.7681ms
+ 2022-06-13 20:14:01.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 20:14:01.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 6.7802ms
+ 2022-06-13 20:14:01.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 20:14:01.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 76.1460ms
+ 2022-06-13 20:14:22.346 +03:00 [INF] Application is starting
+ 2022-06-13 20:14:23.556 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 20:14:24.083 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 20:14:24.083 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 20:14:24.084 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 20:14:24.084 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 20:14:24.084 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 20:14:25.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 20:14:25.220 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 222.8263ms
+ 2022-06-13 20:14:25.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 20:14:25.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 3.7764ms
+ 2022-06-13 20:14:25.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 20:14:25.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 69.5275ms
+ 2022-06-13 20:15:02.494 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-13 20:15:02.603 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 20:15:02.618 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 20:15:03.332 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 20:15:03.425 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 20:15:03.430 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-13 20:15:03.912 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-13 20:15:03.980 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1354.6018ms
+ 2022-06-13 20:15:03.981 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 20:15:03.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1500.6187ms
+ 2022-06-13 20:15:10.084 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/22 - -
+ 2022-06-13 20:15:10.090 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 20:15:10.093 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 20:15:10.101 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 20:15:10.213 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 20:15:10.296 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 20:15:10.311 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+ 2022-06-13 20:15:10.311 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Delete (MyStore) in 210.3651ms
+ 2022-06-13 20:15:10.311 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-13 20:15:10.312 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Category/22 - - - 200 0 - 227.7901ms
+ 2022-06-13 20:15:16.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-13 20:15:16.243 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 20:15:16.244 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-13 20:15:16.246 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-13 20:15:16.247 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-13 20:15:16.248 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 4.0928ms
+ 2022-06-13 20:15:16.248 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-13 20:15:16.249 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 7.5392ms
+ 2022-06-13 20:16:15.401 +03:00 [INF] Application is starting
+ 2022-06-13 20:16:16.631 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-13 20:16:17.194 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-13 20:16:17.195 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-13 20:16:17.195 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-13 20:16:17.195 +03:00 [INF] Hosting environment: Development
+ 2022-06-13 20:16:17.195 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-13 20:16:18.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-13 20:16:18.252 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 227.0683ms
+ 2022-06-13 20:16:18.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-13 20:16:18.277 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.7297ms
+ 2022-06-13 20:16:18.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-13 20:16:18.504 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 98.6289ms
+ 2022-06-13 20:16:26.670 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Customer/4 - -
+ 2022-06-13 20:16:26.681 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 20:16:26.833 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CustomerController.Delete (MyStore)'
+ 2022-06-13 20:16:26.858 +03:00 [INF] Route matched with {action = "Delete", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CustomerController (MyStore).
+ 2022-06-13 20:16:27.598 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-13 20:16:27.648 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-13 20:16:28.241 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[Email], [c].[Name], [c].[OrderId]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 20:16:56.556 +03:00 [INF] Executed action MyStore.Controllers.CustomerController.Delete (MyStore) in 29699.0197ms
+ 2022-06-13 20:16:56.558 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CustomerController.Delete (MyStore)'
+ 2022-06-13 20:16:56.560 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at MyStore.Repository.GenericRepository`1.Delete(Object Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\Repository\GenericRepository.cs:line 30
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 itemId) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 53
+   at MyStore.Controllers.CustomerController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CustomerController.cs:line 143
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 20:16:56.634 +03:00 [ERR] Something went wrong in the System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at MyStore.Repository.GenericRepository`1.Delete(Object Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\Repository\GenericRepository.cs:line 30
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 itemId) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 53
+   at MyStore.Controllers.CustomerController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CustomerController.cs:line 143
+   at lambda_method3(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+ 2022-06-13 20:16:56.790 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Customer/4 - - - 500 - application/json 30123.9838ms
+ 2022-06-13 20:17:00.756 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Customer/3 - -
+ 2022-06-13 20:17:00.756 +03:00 [INF] CORS policy execution successful.
+ 2022-06-13 20:17:00.758 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CustomerController.Delete (MyStore)'
+ 2022-06-13 20:17:00.758 +03:00 [INF] Route matched with {action = "Delete", controller = "Customer"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CustomerController (MyStore).
+ 2022-06-13 20:17:00.771 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Address], [c].[Email], [c].[Name], [c].[OrderId]
+FROM [Customers] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-13 20:17:00.858 +03:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Customers]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-13 20:17:00.877 +03:00 [ERR] An exception occurred in the database while saving changes for context type 'MyStore.Entities.MyStoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b2f63035-04ad-401c-9203-85aa89090a54
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_CustomerId_FidelityCard". The conflict occurred in database "MyStore", table "dbo.FidelityCards", column 'CustomerId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:b2f63035-04ad-401c-9203-85aa89090a54
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)

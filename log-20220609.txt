@@ -1,0 +1,380 @@
+ 2022-06-09 09:38:00.496 +03:00 [INF] Application is starting 2022-06-09 09:38:01.904 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 2022-06-09 09:38:02.489 +03:00 [INF] Now listening on: https://localhost:5001 2022-06-09 09:38:02.489 +03:00 [INF] Now listening on: http://localhost:5000 2022-06-09 09:38:02.489 +03:00 [INF] Application started. Press Ctrl+C to shut down. 2022-06-09 09:38:02.489 +03:00 [INF] Hosting environment: Development 2022-06-09 09:38:02.490 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore 2022-06-09 09:38:03.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - - 2022-06-09 09:38:03.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 258.4122ms 2022-06-09 09:38:03.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - 2022-06-09 09:38:03.805 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 3.3338ms 2022-06-09 09:38:03.928 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - 2022-06-09 09:38:04.001 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 73.2238ms 2022-06-09 09:38:22.193 +03:00 [INF] Application is starting 2022-06-09 09:38:23.342 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 2022-06-09 09:38:23.979 +03:00 [INF] Now listening on: https://localhost:5001 2022-06-09 09:38:23.980 +03:00 [INF] Now listening on: http://localhost:5000 2022-06-09 09:38:23.980 +03:00 [INF] Application started. Press Ctrl+C to shut down. 2022-06-09 09:38:23.980 +03:00 [INF] Hosting environment: Development 2022-06-09 09:38:23.980 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore 2022-06-09 09:38:25.042 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - - 2022-06-09 09:38:25.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - 2022-06-09 09:38:25.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 204.2305ms 2022-06-09 09:38:25.248 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 4.6782ms 2022-06-09 09:38:25.376 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - 2022-06-09 09:38:25.454 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.2798ms 2022-06-09 09:39:28.210 +03:00 [INF] Application is shutting down... 2022-06-09 09:39:35.569 +03:00 [INF] Application is starting
+ 2022-06-09 09:39:36.708 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 09:39:37.242 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 09:39:37.242 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 09:39:37.242 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 09:39:37.242 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 09:39:37.242 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 09:39:38.235 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 09:39:38.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 214.4217ms
+ 2022-06-09 09:39:38.447 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 09:39:38.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 16.8358ms
+ 2022-06-09 09:39:38.571 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 09:39:38.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.0213ms
+ 2022-06-09 09:39:54.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 09:39:54.623 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 09:39:54.636 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 09:39:55.279 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 09:39:55.336 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 09:39:55.822 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 09:39:55.860 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 09:39:55.869 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1228.5856ms
+ 2022-06-09 09:39:55.869 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 09:39:55.876 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1396.2537ms
+ 2022-06-09 09:43:34.196 +03:00 [INF] Application is starting
+ 2022-06-09 09:43:35.673 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 09:43:36.372 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 09:43:36.373 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 09:43:36.373 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 09:43:36.373 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 09:43:36.373 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 09:43:37.495 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 09:43:37.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 240.1742ms
+ 2022-06-09 09:43:37.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 09:43:37.808 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 71.3870ms
+ 2022-06-09 09:43:37.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 09:43:37.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 75.6590ms
+ 2022-06-09 09:43:41.378 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 09:43:41.511 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 09:43:41.524 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 09:43:42.327 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 09:43:42.405 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 09:43:42.974 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 09:43:43.023 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 09:43:43.037 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1508.2276ms
+ 2022-06-09 09:43:43.038 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 09:43:43.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1665.9030ms
+ 2022-06-09 09:59:05.277 +03:00 [INF] Application is starting
+ 2022-06-09 09:59:06.575 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 09:59:07.149 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 09:59:07.149 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 09:59:07.149 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 09:59:07.149 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 09:59:07.149 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 09:59:08.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 09:59:08.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 211.6814ms
+ 2022-06-09 09:59:08.404 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 09:59:08.407 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.6092ms
+ 2022-06-09 09:59:08.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 09:59:08.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 60.6863ms
+ 2022-06-09 09:59:11.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 09:59:11.688 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 09:59:11.700 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 09:59:12.365 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 09:59:12.427 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 09:59:13.009 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 09:59:13.069 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 09:59:13.083 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1378.0165ms
+ 2022-06-09 09:59:13.083 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 09:59:13.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1510.9021ms
+ 2022-06-09 10:30:05.330 +03:00 [INF] Application is starting
+ 2022-06-09 10:30:06.143 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 10:30:06.529 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 10:30:06.529 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 10:30:06.530 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 10:30:06.530 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 10:30:06.530 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 10:30:07.381 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 10:30:07.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 137.0010ms
+ 2022-06-09 10:30:07.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 10:30:07.527 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 8.5443ms
+ 2022-06-09 10:30:07.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 10:30:07.678 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.8906ms
+ 2022-06-09 11:11:11.233 +03:00 [INF] Application is starting
+ 2022-06-09 11:11:12.039 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 11:11:12.453 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 11:11:12.453 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 11:11:12.453 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 11:11:12.453 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 11:11:12.453 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 11:11:13.338 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 11:11:13.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 144.6806ms
+ 2022-06-09 11:11:13.481 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 11:11:13.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 8.2523ms
+ 2022-06-09 11:11:13.580 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 11:11:13.632 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 51.9411ms
+ 2022-06-09 11:11:16.881 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Category application/json 32
+ 2022-06-09 11:11:16.885 +03:00 [INF] CORS policy execution successful.
+ 2022-06-09 11:11:16.953 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-09 11:11:16.971 +03:00 [INF] Route matched with {action = "Post", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MyStore.DTOs.CategoryModel) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 11:11:17.563 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 11:11:17.616 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 11:11:17.960 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryName])
+VALUES (@p0);
+SELECT [Id]
+FROM [Categories]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+ 2022-06-09 11:11:17.991 +03:00 [INF] Executing OkObjectResult, writing value of type 'MyStore.DTOs.CategoryModel'.
+ 2022-06-09 11:11:17.999 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Post (MyStore) in 1024.6912ms
+ 2022-06-09 11:11:17.999 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-09 11:11:18.004 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Category application/json 32 - 200 - application/json;+charset=utf-8 1123.5923ms
+ 2022-06-09 11:14:03.131 +03:00 [INF] Application is starting
+ 2022-06-09 11:14:03.923 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 11:14:04.273 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 11:14:04.273 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 11:14:04.273 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 11:14:04.273 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 11:14:04.273 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 11:14:04.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 11:14:04.983 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 11:14:04.984 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 169.8133ms
+ 2022-06-09 11:14:04.985 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.2385ms
+ 2022-06-09 11:14:05.089 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 11:14:05.147 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 58.1855ms
+ 2022-06-09 11:14:08.794 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Category application/json 32
+ 2022-06-09 11:14:08.798 +03:00 [INF] CORS policy execution successful.
+ 2022-06-09 11:14:08.870 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-09 11:14:08.887 +03:00 [INF] Route matched with {action = "Post", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MyStore.DTOs.CategoryModel) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 11:14:09.456 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 11:14:09.508 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 11:14:09.850 +03:00 [INF] Executed DbCommand (25ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryName])
+VALUES (@p0);
+SELECT [Id]
+FROM [Categories]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+ 2022-06-09 11:14:09.882 +03:00 [INF] Executing OkObjectResult, writing value of type 'MyStore.DTOs.CategoryModel'.
+ 2022-06-09 11:14:09.889 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Post (MyStore) in 999.2488ms
+ 2022-06-09 11:14:09.890 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-09 11:14:09.895 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Category application/json 32 - 200 - application/json;+charset=utf-8 1101.1936ms
+ 2022-06-09 14:57:28.176 +03:00 [INF] Application is starting
+ 2022-06-09 14:57:30.971 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 14:57:31.900 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 14:57:31.900 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 14:57:31.900 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 14:57:31.900 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 14:57:31.900 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 14:57:32.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 14:57:33.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 241.4542ms
+ 2022-06-09 14:57:33.008 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 14:57:33.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.2772ms
+ 2022-06-09 14:57:33.122 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 14:57:33.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.9968ms
+ 2022-06-09 14:57:37.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 14:57:37.678 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 14:57:37.692 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 14:57:38.436 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 14:57:38.488 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 14:57:38.490 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 14:57:39.017 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 14:57:39.059 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1363.8015ms
+ 2022-06-09 14:57:39.060 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 14:57:39.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1473.9571ms
+ 2022-06-09 15:00:51.741 +03:00 [INF] Application is starting
+ 2022-06-09 15:00:52.503 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 15:00:52.855 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 15:00:52.855 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 15:00:52.856 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 15:00:52.856 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 15:00:52.856 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 15:00:53.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 15:00:53.523 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 15:00:53.523 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 168.7237ms
+ 2022-06-09 15:00:53.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 3.4125ms
+ 2022-06-09 15:00:53.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 15:00:53.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 64.0776ms
+ 2022-06-09 15:01:04.971 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:01:05.040 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:01:05.051 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:01:05.580 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 15:01:05.631 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 15:01:05.634 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:01:06.005 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:01:06.044 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 990.0193ms
+ 2022-06-09 15:01:06.044 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:01:06.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1078.5485ms
+ 2022-06-09 15:01:15.452 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/22 - -
+ 2022-06-09 15:01:15.455 +03:00 [INF] CORS policy execution successful.
+ 2022-06-09 15:01:15.457 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-09 15:01:15.463 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:01:15.558 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-09 15:01:15.637 +03:00 [ERR] Something went wrong in the Delete
+System.ArgumentNullException: Value cannot be null. (Parameter 'entity')
+   at Microsoft.EntityFrameworkCore.Utilities.Check.NotNull[T](T value, String parameterName)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at MyStore.Repository.GenericRepository`1.Delete(Object Id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Data\Repository\GenericRepository.cs:line 30
+   at MyStore.Services.Services.BaseCrudDataService`2.Delete(Nullable`1 itemId) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore.Services\Services\BaseCrudDataService.cs:line 53
+   at MyStore.Controllers.CategoryController.Delete(Nullable`1 id) in C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore\Controllers\CategoryController.cs:line 172
+ 2022-06-09 15:01:15.770 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+ 2022-06-09 15:01:15.770 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Delete (MyStore) in 306.6239ms
+ 2022-06-09 15:01:15.770 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-09 15:01:15.771 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Category/22 - - - 500 - text/plain;+charset=utf-8 318.7837ms
+ 2022-06-09 15:01:35.019 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:01:35.021 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:01:35.021 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:01:35.023 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:01:35.024 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:01:35.024 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 2.7823ms
+ 2022-06-09 15:01:35.024 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:01:35.025 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 5.6925ms
+ 2022-06-09 15:02:24.635 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:5001/api/Category/21 - -
+ 2022-06-09 15:02:24.635 +03:00 [INF] CORS policy execution successful.
+ 2022-06-09 15:02:24.635 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-09 15:02:24.636 +03:00 [INF] Route matched with {action = "Delete", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Delete(System.Nullable`1[System.Int32]) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:02:24.639 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-09 15:02:24.692 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [Categories]
+WHERE [Id] = @p0;
+SELECT @@ROWCOUNT;
+ 2022-06-09 15:02:24.701 +03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200
+ 2022-06-09 15:02:24.702 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Delete (MyStore) in 66.0226ms
+ 2022-06-09 15:02:24.702 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Delete (MyStore)'
+ 2022-06-09 15:02:24.702 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:5001/api/Category/21 - - - 200 0 - 67.0384ms
+ 2022-06-09 15:02:34.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:02:34.028 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:02:34.028 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:02:34.028 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:02:34.029 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:02:34.030 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1.8438ms
+ 2022-06-09 15:02:34.030 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:02:34.030 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 2.5516ms
+ 2022-06-09 15:03:03.449 +03:00 [INF] Application is starting
+ 2022-06-09 15:03:04.228 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 15:03:04.556 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 15:03:04.556 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 15:03:04.556 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 15:03:04.556 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 15:03:04.556 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 15:03:05.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 15:03:05.162 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 158.9541ms
+ 2022-06-09 15:03:05.163 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 15:03:05.173 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 9.5612ms
+ 2022-06-09 15:03:05.269 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 15:03:05.333 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.5623ms
+ 2022-06-09 15:06:05.574 +03:00 [INF] Application is starting
+ 2022-06-09 15:06:06.634 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 15:06:06.974 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 15:06:06.974 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 15:06:06.974 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 15:06:06.974 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 15:06:06.974 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 15:06:07.776 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 15:06:07.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 15:06:07.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 147.4776ms
+ 2022-06-09 15:06:07.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 2.3787ms
+ 2022-06-09 15:06:08.030 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 15:06:08.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.2298ms
+ 2022-06-09 15:06:12.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:06:13.027 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:06:13.040 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:06:13.577 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 15:06:13.631 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 15:06:13.634 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:06:13.999 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:06:14.041 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 996.7044ms
+ 2022-06-09 15:06:14.041 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:06:14.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1088.6559ms
+ 2022-06-09 15:06:19.535 +03:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Category application/json 32
+ 2022-06-09 15:06:19.539 +03:00 [INF] CORS policy execution successful.
+ 2022-06-09 15:06:19.540 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-09 15:06:19.547 +03:00 [INF] Route matched with {action = "Post", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Post(MyStore.DTOs.CategoryModel) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:06:19.639 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CategoryName])
+VALUES (@p0);
+SELECT [Id]
+FROM [Categories]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+ 2022-06-09 15:06:19.657 +03:00 [INF] Executing OkObjectResult, writing value of type 'MyStore.DTOs.CategoryModel'.
+ 2022-06-09 15:06:19.658 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Post (MyStore) in 110.5704ms
+ 2022-06-09 15:06:19.658 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Post (MyStore)'
+ 2022-06-09 15:06:19.658 +03:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Category application/json 32 - 200 - application/json;+charset=utf-8 123.3470ms
+ 2022-06-09 15:06:26.090 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category/22 - -
+ 2022-06-09 15:06:26.091 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetById (MyStore)'
+ 2022-06-09 15:06:26.092 +03:00 [INF] Route matched with {action = "GetById", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetById(Int32) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:06:26.147 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-09 15:06:26.148 +03:00 [INF] Executing OkObjectResult, writing value of type 'MyStore.DTOs.CategoryModel'.
+ 2022-06-09 15:06:26.148 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetById (MyStore) in 55.3161ms
+ 2022-06-09 15:06:26.148 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetById (MyStore)'
+ 2022-06-09 15:06:26.149 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category/22 - - - 200 - application/json;+charset=utf-8 58.6701ms
+ 2022-06-09 15:06:30.009 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:06:30.009 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:06:30.009 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:06:30.009 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:06:30.010 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:06:30.011 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1.4511ms
+ 2022-06-09 15:06:30.011 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:06:30.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 2.2898ms
+ 2022-06-09 15:06:42.985 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Category/22 application/json 28
+ 2022-06-09 15:06:42.985 +03:00 [INF] CORS policy execution successful.
+ 2022-06-09 15:06:42.985 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.Update (MyStore)'
+ 2022-06-09 15:06:42.986 +03:00 [INF] Route matched with {action = "Update", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Int32, MyStore.DTOs.CategoryModel) on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:06:42.990 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+WHERE [c].[Id] = @__p_0
+ 2022-06-09 15:06:42.998 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Categories] SET [CategoryName] = @p0
+WHERE [Id] = @p1;
+SELECT @@ROWCOUNT;
+ 2022-06-09 15:06:43.000 +03:00 [INF] Executing OkObjectResult, writing value of type 'MyStore.DTOs.CategoryModel'.
+ 2022-06-09 15:06:43.000 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.Update (MyStore) in 14.0147ms
+ 2022-06-09 15:06:43.000 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.Update (MyStore)'
+ 2022-06-09 15:06:43.001 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Category/22 application/json 28 - 200 - application/json;+charset=utf-8 15.5007ms
+ 2022-06-09 15:06:48.251 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:06:48.252 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:06:48.252 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:06:48.252 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:06:48.253 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:06:48.254 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 2.065ms
+ 2022-06-09 15:06:48.254 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:06:48.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 2.7482ms
+ 2022-06-09 15:57:58.311 +03:00 [INF] Application is starting
+ 2022-06-09 15:57:59.536 +03:00 [INF] User profile is available. Using 'C:\Users\cpetrea\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+ 2022-06-09 15:57:59.965 +03:00 [INF] Now listening on: https://localhost:5001
+ 2022-06-09 15:57:59.965 +03:00 [INF] Now listening on: http://localhost:5000
+ 2022-06-09 15:57:59.965 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+ 2022-06-09 15:57:59.965 +03:00 [INF] Hosting environment: Development
+ 2022-06-09 15:57:59.965 +03:00 [INF] Content root path: C:\Users\cpetrea\source\repos\MyStore-Actual\MyStore
+ 2022-06-09 15:58:00.530 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+ 2022-06-09 15:58:00.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 167.6421ms
+ 2022-06-09 15:58:00.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+ 2022-06-09 15:58:00.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11972 application/javascript;+charset=utf-8 9.1731ms
+ 2022-06-09 15:58:00.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+ 2022-06-09 15:58:00.858 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 56.4658ms
+ 2022-06-09 15:58:04.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Category - -
+ 2022-06-09 15:58:04.463 +03:00 [INF] Executing endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:58:04.479 +03:00 [INF] Route matched with {action = "GetCategories", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MyStore.DTOs.CategoryModel] GetCategories() on controller MyStore.Controllers.CategoryController (MyStore).
+ 2022-06-09 15:58:05.023 +03:00 [WRN] No type was specified for the decimal property 'Unitprice' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType()', specify precision and scale using 'HasPrecision()' or configure a value converter using 'HasConversion()'.
+ 2022-06-09 15:58:05.075 +03:00 [INF] Entity Framework Core 5.0.12 initialized 'MyStoreContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: MaxPoolSize=128 
+ 2022-06-09 15:58:05.078 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectEnumerableIterator`2[[MyStore.Entities.Category, MyStore.Data.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[MyStore.DTOs.CategoryModel, MyStore.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+ 2022-06-09 15:58:05.451 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName]
+FROM [Categories] AS [c]
+ 2022-06-09 15:58:05.492 +03:00 [INF] Executed action MyStore.Controllers.CategoryController.GetCategories (MyStore) in 1010.0216ms
+ 2022-06-09 15:58:05.493 +03:00 [INF] Executed endpoint 'MyStore.Controllers.CategoryController.GetCategories (MyStore)'
+ 2022-06-09 15:58:05.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Category - - - 200 - application/json;+charset=utf-8 1110.0357ms
